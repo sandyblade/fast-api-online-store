@@ -94,10 +94,11 @@ cd fast-api-online-store
 ```shell
 pip install "fastapi[standard]" or pip3 install "fastapi[standard]"
 pip install -r requirements.txt or pip3 install -r requirements.txt
-sudo apt-get install pkg-config python3-dev default-libmysqlclient-dev build-essential # (Linux Based)
+# For Linux Based Only
+sudo apt-get install pkg-config python3-dev default-libmysqlclient-dev build-essential 
 ```
 
-#### 3. Make a .env in fast-api-online-store/backend/config file and customize its settings 
+#### 3. Make a .env in fast-api-online-store/backend file and customize its settings 
 ```shell
 APP_ENV=
 DB_HOST=
